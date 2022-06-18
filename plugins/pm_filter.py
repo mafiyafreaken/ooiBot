@@ -41,7 +41,7 @@ async def give_filter(client, message):
 async def next_page(bot, query):
     ident, req, key, offset = query.data.split("_")
     if int(req) not in [query.from_user.id, 0]:
-        return await query.answer("That's Not For You Dude♥️", show_alert=True)
+        return await query.answer("𝖧𝖾𝗒 {message.from_user.mention} , 𝖳𝗁𝗂𝗌 𝖥𝗂𝗅𝗍𝖾𝗋 𝖨𝗌 𝖭𝗈𝗍 𝖥𝗈𝗋 𝖸𝗈𝗎", show_alert=True)
     try:
         offset = int(offset)
     except:
@@ -364,7 +364,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     caption=f_caption,
                     protect_content=True if ident == "filep" else False 
                 )
-                await query.answer('𝗖𝗛𝗘𝗖𝗞 𝗣𝗠 , 𝗜 𝗛𝗔𝗩𝗘 𝗦𝗘𝗡𝗧 𝗙𝗜𝗟𝗘𝗦 𝗢𝗡 𝗬𝗢𝗨𝗥 𝗣𝗠', show_alert=True)
+                await query.answer('𝖣𝖾𝖺𝗋 {message.from_user.mention}, 𝖨 𝖧𝖺𝗏𝖾 𝖲𝖾𝗇𝗍 𝖸𝗈𝗎 𝖥𝗂𝗅𝖾𝗌 𝖯𝖾𝗋𝗌𝗈𝗇𝖺𝗅𝗒... 𝖢𝗁𝖾𝖼𝗄 𝖬𝗒 𝖯𝖬', show_alert=True)
         except UserIsBlocked:
             await query.answer('Unblock the bot mahn !', show_alert=True)
         except PeerIdInvalid:
@@ -378,7 +378,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ident, file_id = query.data.split("#")
         files_ = await get_file_details(file_id)
         if not files_:
-            return await query.answer('𝗔𝗬𝗬𝗢𝗗𝗔 𝗠𝗢𝗡𝗘 , 𝗔𝗧𝗛 𝗜𝗣𝗣𝗢 𝗜𝗟𝗟𝗔.')
+            return await query.answer('𝖳𝗁𝖺𝗍𝗌 𝖭𝗈𝗍 𝖠𝗏𝖺𝗂𝗅𝖺𝖻𝗅𝖾 𝖭𝗈𝗐 𝖣𝗎𝖣𝖾.')
         files = files_[0]
         title = files.file_name
         size = get_size(files.file_size)
@@ -414,7 +414,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-        await query.answer('𝗣𝗢𝗗𝗔𝗛 𝗞𝗔𝗟𝗟𝗔')
+        await query.answer('𝖫𝗈𝖺𝖽𝗂𝗇𝗀......')
     elif query.data == "help":
         buttons = [[
             InlineKeyboardButton('ᴍᴀɴᴜᴀʟ ғɪʟᴛᴇʀ', callback_data='manuelfilter'),
@@ -434,8 +434,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('ᴄᴘ ғʟɪᴄᴋs', url='https://t.me/cpFlicks'),
-            InlineKeyboardButton('ᴍᴏᴠɪᴇs', url='https://t.me/joinchat/t2g8dRPeSps2MDI9'),
+            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url='https://t.me/+02KKAugkSOg4NWM1'),
+            InlineKeyboardButton('ᴍᴏᴠɪᴇs', url='https://t.me/filmcompanygroup'),
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
