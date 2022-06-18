@@ -15,8 +15,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/achukuttanTG/ooiBot",
-    "repository": "https://github.com/achukuttanTG/ooiBot",
+    "website": "https://github.com/mafiyafreaken/ooiBot",
+    "repository": "https://github.com/mafiyafreaken/ooiBot",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
