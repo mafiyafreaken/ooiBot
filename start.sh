@@ -8,5 +8,5 @@ else
 fi
 cd /ooiBot
 pip3 install -U -r requirements.txt
-echo "sᴛᴀʀᴛɪɴɢ 𝗗𝗞 𝗕𝗢𝗧𝘅........"
+echo "sᴛᴀʀᴛɪɴɢ NithyaBot........"
 python3 bot.py
