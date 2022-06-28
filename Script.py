@@ -3,8 +3,8 @@ class script(object):
 """
     HELP_TXT = """ʜᴇʏ {}
 ʜᴇʀᴇ ɪs ᴍʏ ʜᴇʟᴘ ᴄᴏᴍᴍᴀɴᴅs."""
-    ABOUT_TXT = """○ 𝖬𝗒 𝖭𝖺𝗆e : Tᴇssᴀ
-○ 𝖢𝗋𝖾𝖺𝗍𝗈𝗋 : <a href='https://t.me/aboutme_DK/3'>Dᴋ 🇮🇳</a>
+    ABOUT_TXT = """○ 𝖬𝗒 𝖭𝖺𝗆e : nithya
+○ Owner : <a href='https://t.me/killadi_soman'>ertugrul ghazi</a>
 ○ 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾 : 𝖯𝗒𝗍𝗁𝗈𝗇 𝟥 
 ○ 𝖫𝗂𝖻𝗋𝖺𝗋𝗒 : 𝖯𝗒𝗋𝗈𝗀𝗋𝖺𝗆 𝖺𝗌𝗒𝗇𝖼𝗂𝗈 𝟢.𝟣𝟩.𝟣 
 ○ 𝖲𝖾𝗋𝗏𝖾𝗋 : Contabo
@@ -15,13 +15,13 @@ class script(object):
 - ഇപ്പൊ കിട്ടും നോക്കി ഇരുന്നോ .
 
 <b>DEVS:</b>
-- <a href=https://t.me/smovieofficial>dk [OFLINE]</a>"""
+- <a href=https://t.me/killadi_soman>ertugrul ghazi</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and 𝕋𝔼𝕊𝕊𝔸 will respond whenever a keyword is found the message
 
 <b>NOTE:</b>
-1. 𝕋𝔼𝕊𝕊𝔸 should have admin privillage.
+1. nithya should have admin privillage.
 2. only admins can add filters in a chat.
 3. alert buttons have a limit of 64 characters.
 
@@ -36,11 +36,11 @@ class script(object):
 
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
-2. 𝕋𝔼𝕊𝕊𝔸 supports buttons with any telegram media type.
+2. nithya supports buttons with any telegram media type.
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/dk_botx)</code>
+<code>[Button Text](buttonurl:https://t.me/killadi_soman)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
@@ -67,7 +67,7 @@ class script(object):
     EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
 
 <b>NOTE:</b>
-these are the extra features of 𝕋𝔼𝕊𝕊𝔸
+these are the extra features of nithya
 
 <b>Commands and Usage:</b>
 • /id - <code>get id of a specified user.</code>
@@ -94,7 +94,7 @@ This module only works for my admins
     STATUS_TXT = """⍟ ғɪʟᴇs sᴀᴠᴇᴅ: <code>{}</code>
 ⍟ ᴜsᴇʀs: <code>{}</code>
 ⍟ ɢʀᴏᴜᴘs: <code>{}</code>
-⍟ ᴏᴄᴄᴜᴘɪᴇᴅ: <code>{}</code> 𝙼𝚒𝙱"""
+⍟ ᴏᴄᴄᴜᴘɪᴇᴅ: <code>{}</code> 𝙼𝙱"""
  
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
